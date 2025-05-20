@@ -1,4 +1,4 @@
-# 📋 TaskListApp
+# TaskList
 
 Aplicativo simples de gerenciamento de tarefas com prioridades.
 
