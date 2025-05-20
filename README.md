@@ -12,15 +12,7 @@ O **TaskList** é um projeto React Native criado com foco em avaliação técnic
 - `SectionList` para exibição de tarefas agrupadas por prioridade (Alta, Média, Baixa).
 - `ActionSheet` para interações com as tarefas (editar ou remover).
 
-**Não há persistência de dados** — todas as informações são armazenadas apenas em memória durante a execução da aplicação.
-
 ---
-
-## Tecnologias Utilizadas
-
-- [React Native](https://reactnative.dev/)
-- [Expo](https://expo.dev/)
-- [`@expo/react-native-action-sheet`](https://docs.expo.dev/versions/latest/sdk/action-sheet/)
 
 ## Como executar o projeto
 
