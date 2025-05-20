@@ -1,7 +1,7 @@
 import { View, Text, StyleSheet } from "react-native";
 import { Link } from "expo-router";
 
-export default function Home() {
+export default function Index() {
   return (
     <View style={styles.container}>
       <Text style={styles.title}>Tarefas Prioritárias</Text>
@@ -32,6 +32,8 @@ const styles = StyleSheet.create({
     borderRadius: 8,
     marginVertical: 10,
     alignItems: "center",
+    width: "80%",
+    textAlign: "center",
   },
   buttonText: {
     color: "#fff",

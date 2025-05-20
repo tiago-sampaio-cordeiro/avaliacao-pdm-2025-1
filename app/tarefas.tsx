@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { View, StyleSheet, FlatList } from "react-native";
-import { Link } from "expo-router"; // IMPORTANTE: import Link
+import { Link } from "expo-router";
 import TaskItem from "../components/TaskItem";
 import { mockTasks, Task } from "../service/mockTasks";
 
