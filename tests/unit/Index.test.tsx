@@ -1,7 +1,6 @@
 import { render, screen } from '@testing-library/react-native'
 import Index from '../../app/index'
 
-// Mock do Link do expo-router
 jest.mock('expo-router', () => ({
   Link: ({ href, children, style }: any) => (
     <a href={href} style={style}>
