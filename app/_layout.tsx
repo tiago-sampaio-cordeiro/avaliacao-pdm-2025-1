@@ -1,4 +1,3 @@
-// app/_layout.tsx
 import { Stack } from "expo-router";
 import { ActionSheetProvider } from "@expo/react-native-action-sheet";
 

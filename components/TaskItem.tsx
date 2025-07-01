@@ -42,7 +42,7 @@ export default function TaskItem({ id, title, priority }: TasksProps) {
   return (
     <Link
       href={{
-        pathname: "/Tarefa",
+        pathname: "/tarefa",
         params: { id: id.toString(), title },
       }}
       asChild

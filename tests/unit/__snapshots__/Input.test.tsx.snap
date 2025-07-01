@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CustomInput deve bater com o snapshot atual 1`] = `
+<View
+  style={
+    {
+      "marginVertical": 10,
+    }
+  }
+>
+  <Text
+    style={
+      {
+        "fontSize": 16,
+        "fontWeight": "600",
+        "marginBottom": 6,
+      }
+    }
+  >
+    Senha
+  </Text>
+  <TextInput
+    onChangeText={[Function]}
+    placeholder="Digite sua senha"
+    placeholderTextColor="#aaa"
+    style={
+      {
+        "backgroundColor": "#f0f0f0",
+        "borderRadius": 8,
+        "fontSize": 16,
+        "padding": 12,
+      }
+    }
+    value=""
+  />
+</View>
+`;

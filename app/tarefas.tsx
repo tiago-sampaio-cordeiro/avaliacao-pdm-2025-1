@@ -1,8 +1,9 @@
 import { useEffect, useState } from "react";
-import { View, StyleSheet, FlatList } from "react-native";
+import { View, StyleSheet, FlatList,Text } from "react-native";
 import { Link } from "expo-router";
 import TaskItem from "../components/TaskItem";
 import { mockTasks, Task } from "../service/mockTasks";
+import { title } from "process";
 
 export default function TasksScreen() {
   const [tasks, setTasks] = useState<Task[]>([]);
@@ -20,13 +21,14 @@ export default function TasksScreen() {
 
   return (
     <View style={styles.container}>
+      <Text style={styles.title}>Lista de Tarefas</Text>
       <FlatList
         data={tasks}
         keyExtractor={(item) => item.id.toString()}
         renderItem={({ item }) => (
           <Link
             href={{
-              pathname: "/Tarefa",
+              pathname: "/tarefa",
               params: {
                 id: item.id.toString(),
                 title: item.title,
@@ -52,4 +54,10 @@ const styles = StyleSheet.create({
     flex: 1,
     padding: 20,
   },
+  title: {
+    fontSize: 24,
+    marginBottom: 10,
+    fontWeight: "bold",
+    color: "brown", 
+  }
 });

@@ -10,7 +10,7 @@ export default function Index() {
         <Text style={styles.buttonText}>Ver Tarefas</Text>
       </Link>
 
-      <Link href={"/Adicionar"} style={styles.button}>
+      <Link href={"/adicionar"} style={styles.button}>
         <Text style={styles.buttonText}>Adicionar Tarefa</Text>
       </Link>
     </View>
